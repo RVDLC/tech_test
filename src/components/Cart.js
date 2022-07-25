@@ -13,7 +13,6 @@ const Cart = (props) => {
                         <Product key={`cart${product.id}-${getRandomNumber()}`} inCart={true} completeProduct={product} cartManagement={props.cartManagement}/>
                     ))
                 }
-                test
             </div>
         </div>
     )
